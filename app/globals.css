@@ -3,3 +3,13 @@
 @theme inline {
 	--font-serif: "--font-roboto-serif";
 }
+.tekst {
+	text-orientation: mixed;
+	writing-mode: sideways-lr;
+}
+@media (max-width: 765px) {
+	.tekst {
+		text-orientation: unset;
+		writing-mode: unset;
+	}
+}

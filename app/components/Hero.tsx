@@ -12,12 +12,12 @@ const Hero = () => {
 		{ ime: "K o n t a k t", slika: slika3 },
 	];
 	return (
-		<div className="grid  md:grid-cols-4 px-0 gap-2 justify-center w-full bg-neutral-900 min-h-screen overflow-hidden">
+		<div className="grid grid-cols-1 md:grid-cols-4 px-0 gap-2 justify-center w-full bg-neutral-900 min-h-screen overflow-hidden">
 			{list.map((li, i) => {
 				return (
 					<div
 						key={i}
-						className="relative w-full flex justify-center items-center rotate-6 min-h-[120%] -translate-y-[10%]  overflow-hidden rounded-xl h-full   cursor-pointer hover:scale-105 duration-200"
+						className="relative bg-red-200 w-full flex justify-center items-center rotate-6 min-h-[120%] -translate-y-[10%]  overflow-hidden rounded-xl h-full   cursor-pointer hover:scale-105 duration-200"
 					>
 						<Image
 							src={li.slika}
@@ -27,8 +27,8 @@ const Hero = () => {
 						<div className="inset-0  absolute z-10 bg-black opacity-40"></div>
 
 						<h2
-							style={{ textOrientation: "mixed", writingMode: "sideways-lr" }}
-							className=" uppercase  font-serif text-gray-200 opacity-70 z-20 text-2xl md:text-6xl font-bold text"
+							// style={{ textOrientation: "mixed", writingMode: "sideways-lr" }}
+							className=" uppercase  font-serif tekst text-gray-200 opacity-70 z-20 text-2xl md:text-6xl font-bold tekst"
 						>
 							{li.ime}
 						</h2>
