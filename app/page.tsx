@@ -1,5 +1,3 @@
-import Image from "next/image";
-import hero from "@/public/imgs/hero.jpg";
 import Video from "./components/Video";
 import Hero from "./components/Hero";
 import Slike from "./components/Slike";
