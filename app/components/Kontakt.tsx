@@ -3,7 +3,10 @@ import React from "react";
 
 const Kontakt = () => {
 	return (
-		<div className="w-full px-8 md:px-16 py-16 gap-16 bg-neutral-900 flex flex-col ">
+		<div
+			id="kontakt"
+			className="w-full px-8 md:px-16 py-16 gap-16 bg-neutral-900 flex flex-col "
+		>
 			<h2 className=" text-2xl md:text-6xl pb-8 border-b-2 border-neutral-800 -mb-8 text-gray-500 font-bold text-center font-serif">
 				Kontakt
 			</h2>

@@ -41,7 +41,10 @@ const repertoar2 = [
 ];
 const Repertoar = () => {
 	return (
-		<div className="w-full px-8 md:px-16 py-16 gap-16 bg-neutral-900 flex flex-col ">
+		<div
+			className="w-full px-8 md:px-16 py-16 gap-16 bg-neutral-900 flex flex-col "
+			id="repertoar"
+		>
 			<h2 className="text-4xl text-gray-200 font-bold ">Repertoar</h2>
 			<div className="w-full grid md:grid-cols-2 text-gray-400  md:gap-16 max-w-screen-lg mx-auto">
 				<div className="grid w-full grid-rows-10">
@@ -50,7 +53,7 @@ const Repertoar = () => {
 							key={i}
 							className="border-b-2 text-sm md:text-base border-b-gray-700 w-full py-2"
 						>
-							{li}
+							{li.length > 30 ? li.slice(0, 28) + "..." : li}
 						</p>
 					))}
 				</div>
