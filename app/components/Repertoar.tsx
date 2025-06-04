@@ -48,7 +48,7 @@ const Repertoar = () => {
 					{repertoar1.map((li, i) => (
 						<p
 							key={i}
-							className="border-b-2 border-b-gray-700 w-full py-2"
+							className="border-b-2 text-sm md:text-base border-b-gray-700 w-full py-2"
 						>
 							{li}
 						</p>
@@ -58,7 +58,7 @@ const Repertoar = () => {
 					{repertoar2.map((li, i) => (
 						<p
 							key={i}
-							className="border-b-2 border-b-gray-700 w-full py-2"
+							className="border-b-2 text-sm md:text-base border-b-gray-700 w-full py-2"
 						>
 							{li}
 						</p>
