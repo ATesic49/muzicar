@@ -10,6 +10,7 @@ const repertoar1 = [
 	"Bijelo Dugme - Jer Kad Ostariš",
 	"Branimir Štulić - Mokre Ulice ",
 	"Branimir Štulić - Men Se Dušo Od Tebe Ne Rastaje ",
+	"Divlje Jagode - Marija",
 	"Đorđe Balašević - Olivera",
 	"Ekatarina Velika - Amerika",
 	"Električni Orgazam - Kapetan Esid",
@@ -36,6 +37,7 @@ const repertoar2 = [
 	"Zdravko Čolić - Sto ti dadoh",
 	"Zdravko Čolić - Svadbarskim sokakom",
 	"Željko Bebek - Mene tjera neki vrag",
+	"Yu Grupa - Dunavom Još Šibaju Vetrovi",
 ];
 const Repertoar = () => {
 	return (
