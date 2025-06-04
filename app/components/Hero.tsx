@@ -26,7 +26,7 @@ const Hero = () => {
 					<div
 						key={li.id}
 						onClick={() => handleScrollToElement(li.id)}
-						className="relative bg-red-200 w-full flex justify-center items-center rotate-6 min-h-[120%] -translate-y-[10%]  overflow-hidden rounded-xl h-full   cursor-pointer hover:scale-105 duration-200"
+						className="relative  w-full flex justify-center items-center rotate-6 min-h-[120%] -translate-y-[10%]  overflow-hidden rounded-xl h-full   cursor-pointer hover:scale-105 duration-200"
 					>
 						<Image
 							src={li.slika}

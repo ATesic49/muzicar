@@ -11,17 +11,17 @@ const Kontakt = () => {
 				Kontakt
 			</h2>
 			<div className="w-full flex  justify-center items-center">
-				<div className="grid md:grid-cols-2 gap-8 md:gap-16 mx-auto ">
+				<div className="grid md:grid-cols-2  gap-8 md:gap-16 mx-auto ">
 					<Link
 						href={"mailto:atesic7@gmail.com"}
-						className="text-gray-400 duration-100 hover:text-gray-300 md:text-xl "
+						className="text-gray-400 md:text-left text-center duration-100 hover:text-gray-300 md:text-xl "
 					>
 						atesic7@gmail.com
 					</Link>
 
 					<Link
 						href={"tel:+381644737375"}
-						className="text-gray-400 hover:text-gray-300 duration-100 md:text-xl "
+						className="text-gray-400 hover:text-gray-300 md:text-left text-center duration-100 md:text-xl "
 					>
 						064/473-73-75
 					</Link>
