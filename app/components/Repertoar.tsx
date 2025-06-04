@@ -35,7 +35,7 @@ const repertoar2 = [
 	"Zabranjeno Pušenje - Fikreta",
 	"Zdravko Čolić - Moja draga",
 	"Zdravko Čolić - Sto ti dadoh",
-	"Zdravko Čolić - Svadbarskim sokakom",
+	"Zdravko Čolić - Svadbarskim Sokakom",
 	"Željko Bebek - Mene tjera neki vrag",
 	"Yu Grupa - Dunavom Još Šibaju Vetrovi",
 ];
