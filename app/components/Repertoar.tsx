@@ -41,9 +41,9 @@ const repertoar2 = [
 ];
 const Repertoar = () => {
 	return (
-		<div className="w-full px-16 py-16 gap-16 bg-neutral-900 flex flex-col ">
+		<div className="w-full px-8 md:px-16 py-16 gap-16 bg-neutral-900 flex flex-col ">
 			<h2 className="text-4xl text-gray-200 font-bold ">Repertoar</h2>
-			<div className="w-full grid grid-cols-2 text-gray-400  gap-16 max-w-screen-lg mx-auto">
+			<div className="w-full grid md:grid-cols-2 text-gray-400  gap-16 max-w-screen-lg mx-auto">
 				<div className="grid w-full grid-rows-10">
 					{repertoar1.map((li, i) => (
 						<p

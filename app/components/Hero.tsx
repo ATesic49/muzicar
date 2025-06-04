@@ -12,7 +12,7 @@ const Hero = () => {
 		{ ime: "K o n t a k t", slika: slika3 },
 	];
 	return (
-		<div className="grid  grid-cols-4 px-0 gap-2 justify-center w-full bg-neutral-900 min-h-screen overflow-hidden">
+		<div className="grid  md:grid-cols-4 px-0 gap-2 justify-center w-full bg-neutral-900 min-h-screen overflow-hidden">
 			{list.map((li, i) => {
 				return (
 					<div
@@ -28,7 +28,7 @@ const Hero = () => {
 
 						<h2
 							style={{ textOrientation: "mixed", writingMode: "sideways-lr" }}
-							className=" uppercase  font-serif text-gray-200 opacity-70 z-20 text-6xl font-bold text"
+							className=" uppercase  font-serif text-gray-200 opacity-70 z-20 text-2xl md:text-6xl font-bold text"
 						>
 							{li.ime}
 						</h2>
