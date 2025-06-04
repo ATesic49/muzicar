@@ -1,5 +1,5 @@
 import React from "react";
-import lazarIJA from "@/public/imgs/lazarIJa.jpg";
+import lazarIJA from "@/public/imgs/LazarIJa.jpg";
 import slika from "@/public/imgs/slik1.jpg";
 import Image from "next/image";
 const Slike = () => {
