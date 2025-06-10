@@ -1,6 +1,8 @@
 import React from "react";
 import lazarIJA from "@/public/imgs/LazarIJa.jpg";
 import slika from "@/public/imgs/slik1.jpg";
+import slika6 from "@/public/imgs/slika6.jpg";
+import slika7 from "@/public/imgs/slika7.jpg";
 import Image from "next/image";
 const Slike = () => {
 	return (
@@ -20,6 +22,20 @@ const Slike = () => {
 				<div className="rounded-sm bg-gray-800 aspect-video w-full overflow-hidden ">
 					<Image
 						src={slika}
+						className="object-cover -translate-y-1/2"
+						alt=""
+					></Image>
+				</div>
+				<div className="rounded-sm bg-gray-800 aspect-video w-full overflow-hidden ">
+					<Image
+						src={slika6}
+						className="object-cover -translate-y-1/2"
+						alt=""
+					></Image>
+				</div>
+				<div className="rounded-sm bg-gray-800 aspect-video w-full overflow-hidden ">
+					<Image
+						src={slika7}
 						className="object-cover -translate-y-1/2"
 						alt=""
 					></Image>

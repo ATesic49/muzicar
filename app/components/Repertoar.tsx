@@ -53,7 +53,7 @@ const Repertoar = () => {
 							key={i}
 							className="border-b-2 text-sm md:text-base border-b-gray-700 w-full py-2"
 						>
-							{li.length > 28 ? li.slice(0, 27) + "..." : li}
+							{li.length > 25 ? li.slice(0, 26) + "..." : li}
 						</p>
 					))}
 				</div>
